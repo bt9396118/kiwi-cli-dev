@@ -5,7 +5,10 @@
   "author": "bt9396118 <bt9396118@icloud.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/core.js",
+  "main": "index.js",
+  "bin": {
+    "kiwi": "./bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,5 +21,8 @@
   },
   "scripts": {
     "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@kiwi-cli-dev/utils": "file:../utils"
   }
 }

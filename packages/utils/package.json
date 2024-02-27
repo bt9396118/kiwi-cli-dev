@@ -17,6 +17,7 @@
     "registry": "http://registry.npm.taobao.org/"
   },
   "scripts": {
-    "test": "node ./__tests__/@my-cli-dev/utils.test.js"
-  }
+    "test": "node ./__tests__/@kiwi-cli-dev/utils.test.js"
+  },
+  "dependencies": {}
 }
